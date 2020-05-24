@@ -1,0 +1,214 @@
+/* 全体 */
+
+* {
+  box-sizing: border-box;
+}
+
+/* この下から記述 */
+/*---------
+---index---
+---------*/
+.info{
+  background-color:skyblue;
+  text-align: center;
+  padding: 0px;
+  height: 230px;
+}
+
+.info > h1{
+  font-weight: normal;
+  font-size: 26px;
+  color: currentColor;
+}
+
+h1{
+  color: #6C6C6C;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container{
+  width: 640px;
+  margin:60px auto;
+  text-align: center;
+}
+
+.jyanken>img{
+  margin: 0px;
+}
+
+.jyanken > h2{
+  color: blue;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+}
+
+.omikuji> h2{
+  color: blue;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.jyanken > p{
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+
+.omikuji > p{
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+
+.jyanken_btn{
+  margin-bottom: 50px;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+.jyanken_btn:hover{
+ opacity: 0.8;
+}
+
+.omikuji_btn{
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.omikuji_btn:hover{
+  opacity: 0.8;
+ }
+
+
+/* ---------------
+--jyanken.php--
+--------------- */
+.jyanken_php>img{
+  margin-bottom: 20px;
+}
+
+.jyanken_php > h2{
+  color: blue;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+}
+
+.choice{
+  margin-bottom: 20px;
+}
+
+.radio{
+  cursor: pointer;
+}
+
+.enter{
+  background-color: tomato;
+  width: 300px;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.enter:hover{
+  opacity: 0.8;
+}
+
+.span{
+  color: red;
+}
+
+.work{
+  margin-bottom: 130px;
+}
+
+.work:hover{
+  opacity: 0.8;
+}
+
+
+/* ---------------
+--jyanken_result--
+--------------- */
+h2{
+  color: blue;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+}
+
+.php{
+  margin-bottom: 60px;
+}
+
+.com{
+  color:green;
+  margin: 20px auto;
+}
+
+.back_to_jyanken{
+  margin-bottom: 50px;
+}
+
+.back_to_jyanken:hover{
+  opacity: 0.8;
+}
+
+.back_to_index{
+  margin-bottom: 80px;
+}
+
+.back_to_index:hover{
+  opacity: 0.8;
+}
+
+
+/*-----------
+---omikuji---
+-----------*/
+.omikuji_form{
+  margin: 50px auto;
+}
+
+.work{
+  margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  background: #08c;
+  border-radius: 4px;
+  padding: 12px;
+  color: #fff;
+}
+
+input{
+  border-radius: 4px;
+}
+
+
+/*-----------
+---omikuji_result---
+-----------*/
+.omi_result_php{
+  font-size: 20px;
+}
+
+.good{
+  color: red;
+}
+
+.omi_result_name{
+  color: darkblue;
+}
+
+.omi_result_age{
+  color: darkblue;
+}
